@@ -80,7 +80,7 @@ setValues(arr)
         <input
           type={opt1}
           onChange={(e) => {
-            opt1 ? setVal1(Boolean(e.target.value)) : setVal1(e.target.value);
+            opt1==="bool" ? setVal1(Boolean(e.target.value)) : setVal1(e.target.value);
           }}
         />
       </div>
@@ -94,7 +94,7 @@ setValues(arr)
         <input
           type={opt2}
           onChange={(e) => {
-            opt2 ? setVal2(Boolean(e.target.value)) : setVal2(e.target.value);
+            opt2==='bool' ? setVal2(Boolean(e.target.value)) : setVal2(e.target.value);
           }}
         />
       </div>
